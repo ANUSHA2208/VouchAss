@@ -1,0 +1,19 @@
+.tab
+{
+    font-size: 20px;
+}
+
+.tab-title
+{
+    font-size: 14px;
+    padding-left: 10rem;
+    font-weight: 500;
+    color: #B8BABC;
+}
+
+.logo
+{
+    background-color: #fff;
+    border: 0.1px solid #B8BABC;
+    margin-top: 25px;
+}

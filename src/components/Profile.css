@@ -1,0 +1,118 @@
+body{
+  background-color: #F8F9FD;
+}
+.column1 {
+  float: left;
+  width: 50%;
+
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.body
+{
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  margin: 25px;
+  border-radius: 8px;
+}
+
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 60%;
+}
+
+.right {
+  width: 40%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.Input
+{
+  width: 750px;
+  margin-left: 3rem;
+  display: inline-block;
+  align-items: stretch;
+}
+
+.Input1
+{
+  margin-left: 5px;
+  width: 265px;
+}
+
+
+@media only screen and (max-width: 1740px) and (min-width:280px)
+{
+  
+  .column1
+  {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .column1  {
+    margin: 5px 10px 5px 0;
+  }
+  
+}
+
+.basic
+{
+  width: 92%;
+  margin-left: 3rem;
+}
+
+
+.column1 {  
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.next
+{
+  width:150px;
+  margin-left: 50px;
+}
+
+.save
+{
+  float: right;
+  display: flex;
+}
+
+.label 
+{
+    line-height: 0.4;
+    padding: 25px;
+}
+
+.logo
+{
+  margin: 25px;
+}
+
+
+@media only screen and (max-width: 1740px) and (min-width:280px)
+{
+.save
+{
+  float: left;
+  display: flex;
+}
+}

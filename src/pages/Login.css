@@ -1,0 +1,242 @@
+* {
+  box-sizing: border-box;
+}
+
+/*---------------LOGIN PAGE-----------------------*/
+
+.leftcolumn {   
+  float: left;
+  width: 40%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 60%;
+  background-color: #F5F5F5;
+}
+
+.h2
+{
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: -0.005em;
+  display: inline;
+  margin: auto;
+  padding-left: 20rem;
+  align-content: center;
+  justify-content: center;
+}
+
+
+.welcom .txt
+{
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 18rem; 
+}
+
+.welcom
+{
+  padding-top:20rem;
+}
+
+.card-1 {
+  height: 100vh;
+  border: 2px solid black;
+  background-color: #1334B3;
+  }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+@media screen and (max-width: 1139px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+
+.input,.input-1{
+  width: 300px;
+  box-sizing:border-box;
+  padding-left: 1.5rem;
+  margin-left: 15rem;
+  height: 40px;
+}
+
+
+
+
+
+.btn
+{
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  border:none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #1334B3;
+  text-align: center;
+ margin:2rem 0 0 15rem;
+}
+
+
+.forget
+{
+  margin-left: 20rem;
+  color: #686687;
+}
+
+.terms-txt
+{
+  font-size: 18px;
+  padding-left: 16.5rem;
+  margin: 12rem 0 0 10rem; 
+  color: #233244;
+}
+.terms-txt1
+{
+  padding-left: 15.5rem;
+  margin-top: 0;
+color: #233244;
+}
+.box
+{
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.desc
+{
+  text-align: center;
+  color: #fff;
+}
+
+
+
+@media only screen and (max-width:1800px) and (min-width:1000px)
+{
+.input,.btn
+{
+  margin-left: 100px;
+}
+
+.welcom .txt
+{
+margin-left: 9rem;
+}
+
+.h2
+{
+padding-left: 12rem;
+}
+.forget
+{
+margin-left: 12rem;
+}
+.terms-txt
+{
+padding-left: 6rem;
+}
+.terms-txt1
+{
+padding-left: 5rem;
+}
+
+}
+
+@media only screen and (max-width:600px) and (min-width:300px)
+{
+
+.input,.btn
+{
+  margin-left: 2.5rem;
+}
+
+.welcom .txt
+{
+margin-top:0;
+margin-left: 5.5rem;
+}
+
+.h2
+{
+padding-top: 2rem;
+padding-left: 8rem;
+}
+.forget
+{
+margin-left: 7.5rem;
+}
+
+.terms-txt
+{
+font-size: 12px;
+padding-left: 5.5rem;
+}
+.terms-txt1
+{
+font-size: 12px;
+padding-left: 4.5rem;
+}
+.rightcolumn
+{
+display: none;
+}
+}
+
+@media only screen and (max-width: 300px)
+{
+
+.input,.btn
+{
+  margin-left: 0.5rem;
+}
+
+.welcom .txt
+{
+margin-top:0 ;
+margin-left: 3.5rem;
+}
+
+.h2
+{
+font-size: 24px;
+padding-left: 7rem;
+}
+.forget
+{
+margin-left: 7rem;
+}
+.terms-txt
+{
+font-size: 12px;
+padding-left: 4rem;
+}
+.terms-txt1
+{
+font-size: 12px;
+padding-left: 3rem;
+}
+.rightcolumn
+{
+display: none;
+}
+}
+
+
+
+
+
+

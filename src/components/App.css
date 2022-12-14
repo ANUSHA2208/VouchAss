@@ -1,0 +1,204 @@
+
+.layout .sider
+{
+    background-color: #fff;
+    height: 100%;
+    box-shadow: 0px 1px 5px rgba(3, 0, 55, 0.08);
+}
+
+.sider h1{
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 0.5rem;
+}
+
+.search
+{
+ margin: auto;
+ display: flex;
+}
+
+.sider h3
+{
+    color: #B8BABC;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+text-transform: uppercase;
+    font-weight:800;
+    padding: 0.5rem 0 0 0.5rem;
+}
+
+.btn1,.btn2
+{
+    width: 180px;
+   margin: 5px 0 0 10px;
+   border: none;
+   font-size: 14px;
+   font-weight: 600;
+   box-shadow: 0px 4px 16px rgba(3, 0, 55, 0.08); 
+border-radius: 8px;
+
+}
+
+.btn3
+{
+    width: 100px;
+    height: 40px;
+    margin: 1rem;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;  
+    background-color: #E8EBF9;
+    color: #153AC7;
+}
+
+.btn1:hover
+{
+    background-color: #153AC7;
+    color: #ffffff;
+}
+
+.btn2:hover
+{
+    background-color:#153AC7;
+    color: #ffffff;
+}
+
+.profile
+{
+    margin: 38rem 0 0 0.2rem;
+    border-top: 1px solid #B8BABC;
+}
+
+.col {
+    float: left;
+  }
+  
+  .left {
+    width: 30%;
+  }
+  
+  .right {
+    width: 70%;
+    font-size: 12px;
+    margin-top: 0.2rem;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .content
+  {
+    width: 80%;
+  }
+
+  .body
+  {
+    width: 100%;
+    background-color: #fff;
+    margin: 25px;
+    border-radius: 8px;
+  }
+
+
+  .importing
+  {
+    display: flex;
+  }
+.dropdown
+{
+    float: right;
+}
+.columns
+{
+    border: 1px solid #B8BABC;
+    width: 100px;
+    height: 40px;
+    padding-left: 0.8rem;
+    border-radius: 10px;
+}
+
+.file
+{
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    flex: 50%;
+}
+
+
+
+.headersearch
+{
+    padding: 1rem;
+}
+
+:where(.css-dev-only-do-not-override-1i536d8).ant-pagination .ant-pagination-item-active{
+    background-color: #1677ff;
+}
+
+:where(.css-dev-only-do-not-override-1i536d8).ant-pagination .ant-pagination-item-active a{
+    color: #fff;
+}
+
+
+:where(.ant-layout-content).content
+{
+    width: 85%;
+}
+
+@media only screen and (max-width: 1180px) and (min-width:990px)
+{
+   .ant-table-cell
+   {
+    font-size: 10px;
+   }
+   .body
+   {
+    width: 100%;
+   }
+}
+
+@media only screen and (max-width: 990px) and (min-width:600px)
+{
+   .ant-table-cell
+   {
+    font-size: 8px;
+   }
+   .body
+   {
+    width: 100%;
+   }
+}
+
+
+@media only screen and (max-width: 650px) and (min-width:300px)
+{
+   .ant-table-cell
+   {
+    font-size: 8px;
+   }
+   .body
+   {
+    width: 100%;
+   }
+   .table
+   {
+    width: 100%;
+   }
+  .body .header
+  {
+    width: 820px;
+    /* background-color: #153AC7; */
+  }
+
+  .dropdown
+  {
+    margin-right: 80px;
+  }
+ 
+}

@@ -1,0 +1,22 @@
+
+@media only screen and (max-width: 1367px) and (min-width:300px)
+{
+    .sider
+    {
+        display: none;
+    }
+    .open
+    {
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 2000px) and (min-width:1367px)
+{
+    .open
+    {
+        display: none;
+    }
+
+}
