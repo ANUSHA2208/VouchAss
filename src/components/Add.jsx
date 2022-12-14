@@ -155,14 +155,15 @@ const Add = () => {
           </Button>
         )}
         {current === steps.length - 1 && (
-          <Button type="primary" onClick={() => message.success('Processing complete!')}>
+          <Button style={{marginLeft:25}} type="primary" onClick={() => message.success('Processing complete!')}>
             Done
           </Button>
         )}
         {current > 0 && (
-          <Button
+          <Button 
             style={{
               margin: '0 8px',
+              marginLeft:25,
             }}
             onClick={() => prev()}
           >

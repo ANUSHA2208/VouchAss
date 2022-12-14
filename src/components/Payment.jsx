@@ -193,6 +193,7 @@ export const Payment = () => {
       >
         <Input className='Input' style={{marginLeft:0,width:775}} placeholder='Reason'/>
       </Form.Item>
+      <p>Payment Status</p>
       <Radio.Group onChange={onChange} value={value}>
       <Radio value={1}>Paid</Radio>
       <Radio value={2}>Unpaided</Radio>
@@ -202,7 +203,7 @@ export const Payment = () => {
 
 
    
-    <p>Payment Status</p>
+ 
 
         </div>
       
